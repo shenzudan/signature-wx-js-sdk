@@ -12,7 +12,7 @@ Software architecture description
 
 #### Instructions
 
-config appId & appSecret in signature.php
+config **appId** & **appSecret** in *signature.php*
 ```php
 $appId = 'wxd0803523dcadc007';
 $appSecret = '6413fed34058b3f6465ac07112cb96ca';
@@ -27,13 +27,13 @@ install axios
 
 install wx-js-sdk
 ```console
-> weixin-js-sdk
+> npm install weixin-js-sdk
 ```
 
 define axios in main.js
 ```javascript
-import axios from './http'
-Vue.prototype.$axios=axios;
+import axios from 'axios'
+Vue.prototype.$axios = axios;
 ```
 
 use in code
