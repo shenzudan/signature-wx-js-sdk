@@ -3,9 +3,10 @@
 #### Description
 微信接入js-sdk请求授权获得签名接口
 
-#### Software Architecture
-Software architecture description
-![sequence-gram](sequence-gram.png)
+#### Sequence diagram
+<p align="center">
+  ![sequence-gram](sequence-gram.png)
+</p>
 <p align="center"><a href="https://gitee.com/lovewestwind/signature-wx-js-sdk/blob/master/LICENSEE"><img src="https://img.shields.io/badge/license-MIT-000000.svg" /></a></p>
 #### Installation
 
