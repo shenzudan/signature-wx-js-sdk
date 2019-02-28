@@ -5,7 +5,7 @@
 
 #### Software Architecture
 Software architecture description
-
+![sequence-gram](sequence-gram.png)
 #### Installation
 
 1. git clone  https://gitee.com/lovewestwind/signature-wx-js-sdk.git
