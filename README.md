@@ -3,11 +3,10 @@
 #### Description
 微信接入js-sdk请求授权获得签名接口
 
-#### Sequence diagram
-<p align="center">
-  ![sequence-gram](sequence-gram.png)
-</p>
-<p align="center"><a href="https://gitee.com/lovewestwind/signature-wx-js-sdk/blob/master/LICENSEE"><img src="https://img.shields.io/badge/license-MIT-000000.svg" /></a></p>
+#### Sequence diagram  
+![sequence-gram](sequence-gram.png)  
+<p align="center"><a href="https://gitee.com/lovewestwind/signature-wx-js-sdk/blob/master/LICENSEE"><img src="https://img.shields.io/badge/license-MIT-000000.svg" /></a></p>  
+
 #### Installation
 
 1. git clone  https://gitee.com/lovewestwind/signature-wx-js-sdk.git
