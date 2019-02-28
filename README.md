@@ -6,6 +6,8 @@
 #### Software Architecture
 Software architecture description
 ![sequence-gram](sequence-gram.png)
+<a href="https://gitee.com/lovewestwind/signature-wx-js-sdk/blob/master/LICENSEE">
+  <img src="https://img.shields.io/badge/license-MIT-000000.svg" /></a>
 #### Installation
 
 1. git clone  https://gitee.com/lovewestwind/signature-wx-js-sdk.git
