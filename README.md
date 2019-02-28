@@ -5,7 +5,7 @@
 
 #### Sequence diagram  
 ![sequence-gram](sequence-gram.png)  
-<p align="center"><a href="https://gitee.com/lovewestwind/signature-wx-js-sdk/blob/master/LICENSEE"><img src="https://img.shields.io/badge/license-MIT-000000.svg" /></a></p>  
+<p align="center"><a href="https://gitee.com/lovewestwind/signature-wx-js-sdk/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-000000.svg" /></a></p>  
 
 #### Installation
 
