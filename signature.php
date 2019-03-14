@@ -79,7 +79,7 @@ function getTicket($authUrl) {
         'signature' => $signature,
         'ticket' => $ticket,
         'url' => $authUrl,
-        'code' => '0'
+        'code' => 0
     ); //【关联数组】
 
     return json_encode($res);
@@ -112,8 +112,18 @@ function curl_get_https($url) {
     //关闭URL请求
     curl_close($curl);
     //echo 'res->'.$tmpInfo.'<br>';
+    $jsonData = json_decode($tmpInfo, true);
+    //errcode
+    if (isset($jsonData['errcode'])) {
+        echo json_encode(array(
+            'code' => $jsonData['errcode'],
+            'msg' => $jsonData['errmsg']
+        ));
 
-    return json_decode($tmpInfo, true); 
+        exit(1);
+    }
+
+    return $jsonData; 
 }
 
 
@@ -125,7 +135,8 @@ if (is_array($_GET) && count($_GET) > 0) {
         return;
     }
 }
+
 echo json_encode(array(
-    'code' => '1',
+    'code' => 1,
     'msg' => '参数不存在'
 ));
