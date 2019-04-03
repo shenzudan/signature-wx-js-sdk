@@ -1,4 +1,4 @@
-<p align="center"><a href="https://gitee.com/lovewestwind/signature-wx-js-sdk/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-000000.svg" /></a></p>  
+<p align="center"><a href="https://gitee.com/sense7/signature-wx-js-sdk/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-000000.svg" /></a></p>  
 # signature-wx-js-sdk
 
 #### Description
